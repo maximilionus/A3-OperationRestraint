@@ -1,0 +1,9 @@
+1. Nuke Script:
+ - aliascartoons (ALIAS)
+_____
+2. Weapon Holster Script:
+ - BattleNex
+_____
+4. Intro Script:
+ - aliascartoons (ALIAS)
+_____

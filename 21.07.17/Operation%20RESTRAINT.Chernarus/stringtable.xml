@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Operation RESTRAINT">
+	<Package name="Localization add">
+		<Key ID="STR_opr_menu_onloadmission">
+			<English>Join the detachment 'Fenix-1' and explore the situation in South Zagoria.</English>
+			<Russian>Присоединитесь к отряду 'Fenix-1' и разведайте обстановку в Южной Загории.</Russian>
+		</Key>
+		<Key ID="STR_opr_menu_chernarus">
+			<English>Chernarus</English>
+			<Russian>Черноруссия</Russian>
+		</Key>
+		<Key ID="STR_opr_menu_southzagoria">
+			<English>South Zagoria</English>
+			<Russian>Южная Загория</Russian>
+		</Key>
+	</Package>
+	<Package name="Localization MISSION">
+		<Container name="briefing">
+			<Key ID="STR_opr_briefing_name">
+				<English>Briefing</English>
+				<Russian>Введение</Russian>
+      </Key>
+			<Key ID="STR_opr_briefing_text">
+				<English>
+					&lt;img image='Img\restraint.paa' width='384' height='192' /&gt; &lt;br/&gt; We fixating strange earthquakes on territory of South Zagoria in Chernarus at least for 6 months. There are suggestions that someone conducts some kind of weapon tests on SZ territory. According to our intelligence on the SZ territory were also detected US troops. It is not yet known what purpose they pursue, but apparently they are also quite interested in these incidents. So far, neither side has been conducting open hostilities, but at any moment the situation may change. &lt;br/&gt; Your PMC 'Fenix' - Fenix 1 is sent there for more precise information. The disembarkation will be made in the area of the village 'Staroye'. Try to avoid contact with enemy forces. &lt;br/&gt; &lt;br/&gt; &lt;font color='#DC143C'&gt; Your helicopter crashed and you just woke up. There are no connections with the base, apparently there are some jammers. Your task is to get to the landing point and inspect the crash site of your helicopter, then follow the main task. &lt;/font color&gt;
+				</English>
+				<Russian>
+					&lt;img image='Img\restraint.paa' width='384' height='192' /&gt; &lt;br/&gt; На территории Южной Загории в Черноруссии уже как 6 месяцев фиксируются странные землетрясения. Есть предположения, что в Черноруссии производится тестирование какого то вида вооружения. По имеющимся у нас разведданным на территории так же были обнаруженны войска США. Пока неизвестно, какую цель они преследуют, но судя по всему они тоже довольно заинтересованны в этих происшествиях. Пока что ни одна из сторон не проводит открытых боевых действий однако в любой момент ситуация может измениться. &lt;br/&gt; Ваш отряд ЧВК 'Fenix' - Fenix 1 направляется туда для получения более точной информации. Высадка будет произведена в районе села 'Старое'. Старайтесь избегать столкновений с силами противника. &lt;br/&gt; &lt;br/&gt; &lt;font color='#DC143C'&gt; Ваш вертолет потерпел крушение и вы только что пришли в себя после эвакуации. Связи с базой нету, видимо где то установленны глушилки. Ваша задача добраться до точки высадки и обследовать место крушения вашего вертолета, после чего следовать изначально поставленной задаче. &lt;/font color&gt;
+				</Russian>
+      </Key>
+			<Key ID="STR_opr_briefing_scriptsscrn">
+				<English>Added Functions</English>
+				<Russian>Внедренные Функции</Russian>
+      </Key>
+			<Key ID="STR_opr_briefing_scriptsscrt">
+				<English>
+					&lt;img image='Img\opr_briefing_scripts.jpg' width='384' height='192' /&gt; &lt;br/&gt;&lt;br/&gt; &lt;font color='#DC143C'&gt; Player Health Regeneration&lt;/font color&gt; &lt;br/&gt; In this this mission works script, that regenerating players health! If your health level falls below 100%, then the script will begin to slowly regenerate health (5% of health is restored within 15 seconds). To speed up the recovery process, you can use the First Aid Kit &lt;br/&gt; For example: if your health level is = 10%, then full regeneration to 100% will take 270 seconds. &lt;br/&gt; The process of health regeneration is used ONLY on the PLAYER and does not affect the AI in any way! &lt;br/&gt;&lt;br/&gt; &lt;font color='#DC143C'&gt;Ability to Holster Weapons&lt;/font color&gt; &lt;br/&gt; If you holster your weapon, you will significantly increase the speed of movement of the player. T.K in vanilla ArmA such functions are not present, I have implemented it through a script. &lt;br/&gt; To move weapon in the holster, just open the interactions window (MWHEELUP, MWHEELDOWN) and select 'Holster'.
+				</English>
+				<Russian>
+					&lt;img image='Img\opr_briefing_scripts.jpg' width='384' height='192' /&gt; &lt;br/&gt;&lt;br/&gt; &lt;font color='#DC143C'&gt; Регенерация Здоровья Игрока&lt;/font color&gt; &lt;br/&gt; В данной миссии работает скрипт на автоматическую регенерацию здоровья игрока! Если ваш уровень здровья упадет ниже 100%, то скрипт начнет регенерацию здоровья (5% здоровья восстанавливаются в течении 15 секунд). Ускорить процесс восстановления можно использовав Перевязочный Пакет &lt;br/&gt; Например: если ваш уровень здоровья будет = 10%, то полная регенерация до 100% займет 270 сек. &lt;br/&gt; Процесс регенерации здоровья используется ТОЛЬКО на ИГРОКЕ и никак не влияет на ИИ! &lt;br/&gt;&lt;br/&gt; &lt;font color='#DC143C'&gt;Возможность Убрать Оружие&lt;/font color&gt; &lt;br/&gt; Если убрать оружие, то вы существенно повысите скорость передвижения игрока. Т.К в ванильной АрмА такой функции нет, то я внедрил ее через скрипт. &lt;br/&gt; Что бы убрать оружие за спину или в кобуру просто откройте окно взаимодействий (MWHEELUP, MWHEELDOWN) и выберите пункт 'Убрать Оружие'.
+				</Russian>
+      </Key>
+		</Container>
+		<Container name="HUD">
+			<Key ID="STR_opr_hud_taskcreatortxt">
+				<English>ASSIGNATION OF THE MAIN MISSION...</English>
+				<Russian>НАЗНАЧЕНИЕ ОСНОВНОГО ЗАДАНИЯ...</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_obtaindata">
+				<English>OBTAIN DATA</English>
+				<Russian>ПОЛУЧИТЬ ДАННЫЕ</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_look">
+				<English>INSPECT</English>
+				<Russian>ОСМОТРЕТЬ</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_deactivate">
+				<English>DEACTIVATE</English>
+				<Russian>ОТКЛЮЧИТЬ</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_destroy">
+				<English>DESTROY</English>
+				<Russian>УНИЧТОЖИТЬ</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_weaponhscr_holster">
+				<English>Holster</English>
+				<Russian>Убрать Оружие</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_hostsetfree">
+				<English>SET FREE</English>
+				<Russian>ОСВОБОДИТЬ</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_senddata">
+				<English>START DATA TRANSMISSION</English>
+				<Russian>НАЧАТЬ ПЕРЕДАЧУ ДАННЫХ</Russian>
+			</Key>
+			<Key ID="STR_opr_hud_usf1_unk">
+				<English>
+					VGhlIERlYWQgTWFuJ3MgSGFuZCBpcyBhIHByb3RvY29sIGNyZWF0ZWQgYnkgdGhlIFVOaVQgb3JnYW5pemF0aW9uIHRvIGludHJvZHVjZSBhIHN0YXRlIG9mIGVtZXJnZW5jeSBvbiB0aGUgdGVycml0b3J5IG9mIGEgY2VydGFpbiBmYWNpbGl0eS4gVGhlIG9yZ2FuaXphdGlvbiBVTmlUIGlzIGVuZ2FnZWQgaW4gdGhlIGRldmVsb3BtZW50IGFuZCB0ZXN0aW5nIG9mIHdlYXBvbnMgYWZmZWN0aW5nIHRoZSBwc3ljaG9sb2dpY2FsIHN0YXRlIG9mIGxpdmluZyBvcmdhbmlzbXMuIFRoZSBzdGFydGluZyBwb2ludCBvZiB0aGlzIG9yZ2FuaXphdGlvbiBpcyAyMDA4LiBbRE9DVU1FTlQgREFNQUdFRF0=
+				</English>
+				<Russian>
+					0KDRg9C60LAg0JzQtdGA0YLQstC10YbQsCAtINC/0YDQvtGC0L7QutC+0Lsg0YHQvtC30LTQsNC90L3Ri9C5INC+0YDQs9Cw0L3QuNC30LDRhtC40LXQuSBVTmlUINC00LvRjyDQstCy0LXQtNC10L3QuNGPINGH0YDQtdC30LLRi9GH0LDQudC90L7Qs9C+INC/0L7Qu9C+0LbQtdC90LjRjyDQvdCwINGC0LXRgNGA0LjRgtC+0YDQuNC4INC+0L/RgNC10LTQtdC70LXQvdC90L7Qs9C+INC+0LHRitC10LrRgtCwLiDQntGA0LPQsNC90LjQt9Cw0YbQuNGPIFVOaVQg0LfQsNC90LjQvNCw0LXRgtGB0Y8g0YDQsNC30YDQsNCx0L7RgtC60L7QuSDQuCDQuNGB0L/Ri9GC0LDQvdC40LXQvCDQstC+0L7RgNGD0LbQtdC90LjRjyDQstC+0LfQtNC10LnRgdGC0LLRg9GO0YnQtdCz0L4g0L3QsCDQv9GB0LjRhdC+0LvQvtCz0LjRh9C10YHQutC+0LUg0YHQvtGB0YLQvtGP0L3QuNC1INC20LjQstGL0YUg0L7RgNCz0LDQvdC40LfQvNC+0LIuINCh0YLQsNGA0YLQvtCy0L7QuSDRgtC+0YfQutC+0Lkg0LTQsNC90L3QvtC5INC+0YDQs9Cw0L3QuNC30LDRhtC40Lgg0Y/QstC70Y/QtdGC0YHRjyAyMDA4INCz0L7QtC4gW9Cb0JjQodCiINCe0KLQntCg0JLQkNCdXQ==
+				</Russian>
+			</Key>
+		</Container>
+		<Container name="Diary">
+			<Key ID="STR_opr_diary_mainname">
+				<English>Diary</English>
+				<Russian>Заметки</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_mainn_1">
+				<English>Entry (After Helicrash)</English>
+				<Russian>Запись (После Крушения)</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_maint_1">
+				<English>Damn it, my whole body aches. It seems that after the crash passed 14 hours. A beacon was installed on the heli, it's necessary to inspect the crash site.</English>
+				<Russian>Черт, все тело ломит. Похоже, что после момента крушения прошло где то 14 часов. На вертушке был установлен маячок, надо бы осмотреть место крушения.</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_mainn_2">
+				<English>Entry (At the heli crash site)</English>
+				<Russian>Запись (Место крушения вертолета)</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_maint_2">
+				<English>
+					It seems that while I was unconscious, a chernarussian patrol arrived at the crash site. There are no members of our detachment at the crash site... There are several options: either they were already taken to the nearest checkpoint, or they were all successfully evacuated (I'm more inclined to the second variant). &lt;br/&gt; &lt;br/&gt; &lt;font color='#778899'&gt; Note: Attack a patrol or pass unnoticed - it will be wholly depends on you &lt;/font color&gt;
+				</English>
+				<Russian>
+					Похоже, пока я был в отключке, к вертушке прибыл чернорусский патруль. Членов нашего отряда на месте крушения нет... Вариантов несколько: либо их уже увезли на ближайший блокпост, либо они все успешно эвакуировались (я больше придерживаюсь первого варианта). &lt;br/&gt; &lt;br/&gt; &lt;font color='#778899'&gt; Заметка: Атаковать патруль или пройти незаметно - завсисит исключительно от вас &lt;/font color&gt;
+				</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_mainn_3">
+				<English>Data Obtained in Shakhovka</English>
+				<Russian>Полученные Данные В Шаховке</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_maint_3">
+				<English>
+					If the intelligence I have received is correct, then now I have in my hands the locations of air defense facilities in the whole of South Zagoria. If I can destroy these facilities, then this will greatly facilitate the reinforcement approach, if necessary. &lt;br/&gt;This earthquake... Fears about some kind of tests on territory of South Zagoria starts to be approving.
+				</English>
+				<Russian>
+					Если полученные мной разведданные верны, то теперь у меня в руках есть местоположения средств ПВО на территории всей Южной Загории. Если я смогу уничтожить данные установки, то это существенно облегчит подход подкрепления при необходимости. &lt;br/&gt;Еще это землетрясение... Опасения насчет проведения каких то испытаний на территории Южной Загории начинают подтвержаться.
+				</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_mainn_t4">
+				<English>Strange things...</English>
+				<Russian>Странные Вещи...</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_maint_t4">
+				<English>
+					Arriving at the coordinates found in Guglovo, I found a bunch of barely living chernorussian soldiers. Apparently this was their squad 'Falcon'. The strangest thing is that all of them seem to lost their minds: some of them are completely nonsense, others are lying twitching. By the way, in the journal there was also a record about the protocol 'The Hand of the Deadman'... It sounds quite interesting.&lt;br/&gt;The helicopter that flew past me towards the NW Airfield was clearly not a Chernorussian one...&lt;br/&gt;&lt;br/&gt; &lt;img image='Img\photo_1.jpg' width='384' height='384' /&gt;&lt;br/&gt;And by the way, this photo is quite interesting. Who, when and why did it and what it did in that folder. The one who made it apparently led to surveillance of this person, but why?
+				</English>
+				<Russian>
+					Прибыв по координатам, найденным в Гуглово, я обнаружил кучу еле живых чернорусских солдат. Судя по всему это и был их отряд 'Сокол'. Самое странное это то, что у всех них будто крышу снесло: одни несут полнейший бред, другие вовсе лежат смирно изредка подергиваясь. Кстати, в журнале была так же запись о протоколе 'Рука Мертвеца'... Звучит довольно интересно.&lt;br/&gt;Вертолет который пролетел мимо меня в сторону С-З Аэродрома был явно не чернорусский...&lt;br/&gt;&lt;br/&gt; &lt;img image='Img\photo_1.jpg' width='384' height='384' /&gt;&lt;br/&gt;И кстати, это фото довольно интересное. Кто, когда и зачем сделал его и что оно делало в той папке. Тот кто его сделал видимо вел слежку за данной персоной, но зачем?
+				</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_found">
+				<English>Found Notes</English>
+				<Russian>Найденные Заметки</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_found_task3n">
+				<English>Admission Log from CP in Guglovo</English>
+				<Russian>Журнал Регистрации с КПП в Гуглово</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_found_task3t">
+				<English>
+					1st page.&lt;br/&gt;REGISTRATION LIST FOR &lt;font color='#DC143C'&gt;17.05.2015г.&lt;/font color&gt; &lt;br/&gt; &lt;br/&gt;7:00 AM - | GAZ-66 | - | ??? | - | PAVLOVO -> ZELENHOGORSK -> STARY SOBOR -> GULGLOVO -> ... |&lt;br/&gt; [PAGE DAMAGED] &lt;br/&gt;__________&lt;br/&gt;&lt;br/&gt; 2nd page. &lt;br/&gt; &lt;img image='Img\photo_1.jpg' width='384' height='384' /&gt; &lt;br/&gt;__________&lt;br/&gt;&lt;br/&gt; 3 стр.&lt;br/&gt; &lt;font color='#DC143C'&gt; 17.05.15 14:40 - &lt;/font color&gt; Within 5 hours there is no connection with the object 'Celsius' (pos - 064087). Soon, the reconnaissance unit Falcon will arrive there for information. If the Falcon does not contact after 12 hours, then the protocol 'Dead Man's Hand' сomes into force. &lt;br/&gt; -UNiT-
+				</English>
+				<Russian>
+					1 стр.&lt;br/&gt;РЕГИСТРАЦИОННЫЙ ЛИСТ ЗА &lt;font color='#DC143C'&gt;17.05.2015г.&lt;/font color&gt; &lt;br/&gt; &lt;br/&gt; 7:00 - |ГАЗ-66| - |???| - |ПАВЛОВО -> ЗЕЛЕНОГОРСК -> СТАРЫЙ СОБОР -> ГУГЛОВО ->...| &lt;br/&gt; [СТРАНИЦА ЧАСТИЧНО ВЫРВАНА] &lt;br/&gt;__________&lt;br/&gt;&lt;br/&gt; 2 стр. &lt;br/&gt; &lt;img image='Img\photo_1.jpg' width='384' height='384' /&gt; &lt;br/&gt;__________&lt;br/&gt;&lt;br/&gt; 3 стр.&lt;br/&gt; &lt;font color='#DC143C'&gt; 17.05.15 14:40 - &lt;/font color&gt; В течении 5 часов отсутсвует связь с объектом 'Цельсий' (поз - 064087). В скором времени туда прибудет разведотряд 'Сокол' для получения информации. Если 'Сокол' не выйдет на связь через 12 часов, то в действие приходит протокол 'Рука Мертвеца'. &lt;br/&gt; -UNiT-
+				</Russian>
+			</Key><Key ID="STR_opr_diary_found_task6n">
+				<English>Document obtained from Ivan</English>
+				<Russian>Документ найденный у Ивана</Russian>
+			</Key>
+		</Key><Key ID="STR_opr_diary_found_task6d">
+			<English>
+				&lt;img image='Img\unit_l.jpg' width='360' height='192' /&gt; &lt;br/&gt;&lt;br/&gt;UNiT conducts a mass eviction of civilians from the territory of Southern Zagoria to conduct their experiments without consequences and witnesses. Regarding the protesting part of the population, UNiT is conducting brutal fighting with them. In connection with the agreement concluded between the UNiT and the government of South Zagoria, chernarusian troops are compelled to fully support and follow the orders of the UNiT in order to avoid irreversible consequences.&lt;br/&gt;&lt;br/&gt; &lt;font color='#DC143C'&gt;[OBTAINED DATA PACKAGES ON THE STORAGE DEVICE.]&lt;/font color&gt; &lt;br/&gt; (You can send data packages by any terminal)
+			</English>
+			<Russian>
+				&lt;img image='Img\task5_taskimg.jpg' width='360' height='192' /&gt; &lt;br/&gt;&lt;br/&gt;UNiT проводит массовое выселение гражданских с териитории Южной Загории для проведения своих опытов без последствий и свидетелей. В отношении протестующей части населения UNiT проводит жестокие боевые действия. В связи с договором, заключенным между UNiT и правительством Южной Загории, чернарусские войска вынуждены полностью поддерживать и следовать приказам UNiT во избежание необратимых последствий.&lt;br/&gt;&lt;br/&gt; &lt;font color='#DC143C'&gt; [ПОЛУЧЕН ПАКЕТ ДАННЫХ НА СЪЕМНОМ НАКОПИТЕЛЕ.]&lt;/font color&gt; &lt;br/&gt; (Вы сможете выгрузить данные на любом терминале.)
+			</Russian>
+		</Key>
+			<Key ID="STR_opr_diary_foundn_1">
+				<English>Message in the fortress</English>
+				<Russian>Послание в крепости</Russian>
+			</Key>
+			<Key ID="STR_opr_diary_foundt_1">
+				<English>KEEP YOUR EYES OPEN.</English>
+				<Russian>СМОТРИ В ОБА.</Russian>
+			</Key>
+		</Container>
+		<Container name="Dialogs">
+			<Key ID="STR_opr_dialogs_pavelname">
+				<English>Pavel Shcherbakov</English>
+				<Russian>Павел Щербаков</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_fedorname">
+				<English>Fedor Antonov</English>
+				<Russian>Фёдор Антонов</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unknownname">
+				<English>????</English>
+				<Russian>????</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unknownname1">
+				<English>???? #1</English>
+				<Russian>???? #1</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unknownname2">
+				<English>???? #2</English>
+				<Russian>???? #2</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unknownradioname">
+				<English>*RADIO* ????</English>
+				<Russian>*РАДИО* ????</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_1">
+				<English>I hear the sound of engine in front of me. I hope this is not a patrol...</English>
+				<Russian>Спереди доносится звук движка. Патрулей тут только не хватало для полного счастья...</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t1_1">
+				<English>I have a bad feeling. Most likely there is already a recon group at the place.</English>
+				<Russian>Что-то нехорошее у меня предчувствие.  Cкорее всего там уже находится отряд разведки.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t1_2">
+				<English>Ok, I inspected the heli crash place. Now I need to follow the main task.</English>
+				<Russian>Ладно, место крушения осмотрел, теперь нужно сдедовать изначально поставленной задаче.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t1_3">
+				<English>Need to inspect places marked on map and find out about jammer.</English>
+				<Russian>Надо осмотреть отмеченные на карте места и заодно разузнать про глушилку.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t2_1">
+				<English>Alright. I made my way to Shakhovka. Now I need to search the village.</English>
+				<Russian>Отлично. До Шаховки я добрался, теперь нужно обыскать поселок.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t2_2">
+				<English>Strange, but it seems they did not even try to hide anything.</English>
+				<Russian>Странно, но похоже они даже и не пытались ничего скрывать.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t2_3">
+				<English>Looks like i obtained information about their Anti Air Defense systems location.</English>
+				<Russian>Судя по всему, я раздобыл данные о местах расположения их средств ПВО.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t2_4">
+				<English>What the hell?!</English>
+				<Russian>Это еще что за черт?!</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t2_5">
+				<English>What does cause such a strong earthquakes...</English>
+				<Russian>Что же все таки вызывает такие сильные землетрясения...</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t2_6">
+				<English>The fog...</English>
+				<Russian>Туман...</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t3_1">
+				<English>Whats going on here?</English>
+				<Russian>Что тут вообще происходит?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_1">
+				<English>Oh god... are they still alive?</English>
+				<Russian>Господи... они еще живы?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_2">
+				<English>No trace of blood, nothing. What happened to them then?</English>
+				<Russian>Никаких следов крови, ничего. Что же тогда с ними случилось?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_3">
+				<English>Apparently the heli flies right to my position. I really hope that this place is not its end goal.</English>
+				<Russian>Судя по всему вертушка летит прямо сюда. Очень надеюсь что это место не ее конечная цель.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_4">
+				<English>Crap. They want to restore power to this 'object'. The car crashed right into the transformer.</English>
+				<Russian>Черт. Они хотят восстановить питание на данном 'объекте'. Машина врезалась прямо в трансформатор.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_5">
+				<English>If I can blow it up, then I definitely demolish both the transformer and the tower.</English>
+				<Russian>Если я смогу ее подорвать, то однозначно снесу и трансформатор и вышку.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_6">
+				<English>I did not immediately realize that the radio signal had appeared. It looks like there was a jammer.</English>
+				<Russian>Я как то не сразу осознал, что радиосигнал появился. Выходит, что тут и находилась глушилка сигнала.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t4_7">
+				<English>And it seems that this jammer was not the only one. As soon as complete the rest of the tasks, I'll head to NW Airfield. I hope I can find out something.</English>
+				<Russian>И похоже что это глушилка была не единственной. Как только разберусь с остальными заданиями направлюсь на С-З Аэродром. Надеюсь, что смогу хоть что то разузнать.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t4_1">
+				<English>(EN) CP, this is Eagle-1. Object 'Celsius' is damaged and completely de-energized. Over.</English>
+				<Russian>(EN) КП, это Орел-1. Передаю: объект 'Цельсий' поврежден и полностью обесточен. Прием.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t4_2">
+				<English>(EN) Eagle-1, this is CP. Roger. We will send a detachment there to restore power and activate the reserve object, out.</English>
+				<Russian>(EN) Орел-1, это КП. Вас понял. Мы направим туда отряд для восстановления питания и активируем резервный объект. Конец связи.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t4_3">
+				<English>(EN) All units, this is CP. The object 'Celsius' is de-energized. I repeat: the object 'Celsius' is de-energized. I authorize the activation of the reserve object 'Spark', out</English>
+				<Russian>(EN) Всем позывным, это КП. Объект 'Цельсий' обесточен. Повторяю: объект 'Цельсий' обесточен. Разрешаю активировать резервный объект 'Искра'! Конец связи.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t5_1">
+				<English>I must be careful. I'm sure that this place is guarded.</English>
+				<Russian>Надо соблюдать осторожность. Склад в любом случае должен охраняться.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t7_1">
+				<English>Apparently, the radio frequency again coincided, strange even...</English>
+				<Russian>Видимо радиочастота опять совпала, странно даже...</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t7_2">
+				<English>Their heli goes straight to 'Spark'. This means that if I get to the aerodrome control tower, I can probably find a helicopter tracking device.</English>
+				<Russian>Их вертушка направляется прямиком на 'Искру'. Это значит, что если я проберусь в диспетчерский пункт аэродрома, то возможно смогу найти отслеживающее вертолет устройство.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t7_3">
+				<English>I just need to send a packet of data. At the same time I will try to disable the jamming device.</English>
+				<Russian>Мне как раз нужно отправить пакет полученных данных. Заодно и глушилку попытаюсь вывести из строя.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t7_4">
+				<English>So, the coordinates of 'Spark' are mine. Now we must quickly get our feet out of here.</English>
+				<Russian>Так, координаты 'Искры' у меня. Теперь надо быстро делать ноги отсюда.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t7_1">
+				<English>(EN) I repeat once again: without an order, the fire does not open. Our task is to make everything as quiet as possible.</English>
+				<Russian>(EN) Повторяю еще раз: без приказа огонь не открывать. Наша задача сделать все как можно тише.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t7_2">
+				<English>(EN) If we can get in quietly, then we'll put a charge without any problems, and then level this place with the land until it's too late.</English>
+				<Russian>(EN) Если сможем пробраться тихо, то без проблем заложим заряд, а потом сровняем это место с землей пока не поздно.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t7_3">
+				<English>(EN) Delta, this is CP. I order to immediately go up into the air and advance to the 'Spark' facility to ensure the safety of the engineering group, over.</English>
+				<Russian>(EN) Дельта, это КП. Приказываю немедленно подняться в воздух и выдвинуться к объекту 'Искра' для обеспечения безопасности инженерной группы, прием.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_t7_4">
+				<English>(EN) CP, this is Delta. Roger you, already moving, out.</English>
+				<Russian>(EN) КП, это Дельта. Вас понял, уже в пути. Конец связи.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_1">
+				<English>It looks like I can not get through the main gate. Maybe I can crawl somewhere under the fence.</English>
+				<Russian>Похоже через главные ворота мне не пройти. Возможно смогу пролезть где-нибудь под забором.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_2">
+				<English>And this is the signal muting device. If I cut the power wires, I can disable it.</English>
+				<Russian>А вот собственно и устройство заглушения сигнала. Если перерезать провода питания, то смогу вывести его из строя.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_3">
+				<English>Excellent! Now the jammer is disabled for a while.</English>
+				<Russian>Отлично! Теперь глушилка выведенна из строя на некоторое время.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_4">
+				<English>There are no connections with the antenna. Maybe it's worth climbing up to her and checking the power shields, I hope that's the point.</English>
+				<Russian>Соединения с антенной нету. Возможно стоит забраться на нее и проверить щитки, надеюсь что дело в этом.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_5">
+				<English>Aaaand... it's ready. Now I need to try establish a connection again.</English>
+				<Russian>Так, готово. Теперь нужно попробовать установить соединение еще раз.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_6">
+				<English>The process seems to have moving, now it remains only to wait for the end.</English>
+				<Russian>Процесс вроде пошел, теперь остается только дождаться окончания.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_7">
+				<English>Hell, what happened again ?! The fucking transmitter stopped working at the right time!</English>
+				<Russian>Черт, да что опять то случилось?! Сраный передатчик перестал работать в самый нужный момент!</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_8">
+				<English>I'll have to climb onto that fucking tower again and check the connection.</English>
+				<Russian>Придется опять лезть на эту долбаную вышку и проверять соединение.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_9">
+				<English>In general, this is rather strange. The fuse was knocked out in the power shield. This object is powered by generators and only the antenna works from a common net.</English>
+				<Russian>Вообще это довольно странно. В щитке выбило предохранители. Данный объект питается от генераторов и лишь антена работает от общей сети.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_10">
+				<English>Where does this overload come from?</English>
+				<Russian>Откуда такая нагрузка?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_11">
+				<English>Okay, I need to get back to the terminal and resume sending.</English>
+				<Russian>Ладно, надо вернуться к терминалу и возобновить отправку.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_t8_12">
+				<English>What's happening?!</English>
+				<Russian>Что происходит?!</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_1">
+				<English>We received a huge data packet. In addition, something strange happened...</English>
+				<Russian>Мы получили огроменный пакет данных. Помимо этого произошло кое-что странное...</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_2">
+				<English>What exactly?</English>
+				<Russian>Что именно?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_3">
+				<English>So far, this information has not been confirmed, but it seems that a nuclear explosion was recorded in the territory of South Zagoria.</English>
+				<Russian>Пока что данная информация не подтверждена, но похоже что на территории Южной Загории был зафиксирован ядерный взрыв.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_4">
+				<English>Nuclear explosion!?</English>
+				<Russian>Ядерный взрыв!?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_5">
+				<English>Yes. And apparently the initiator of this incident was the organization UNiT.</English>
+				<Russian>Да. И судя по всему инициатором данного инцидента стала организация UNiT.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_6">
+				<English>Most likely it's just an attempt to hide most of their research and equipment that was there.</English>
+				<Russian>Скорее всего это просто попытка скрыть большинство своих исследований и оборудование, которое там было.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_7">
+				<English>No one will care for their activities. Everyone will be busy with this explosion, and they will just hide for a time.</English>
+				<Russian>Никому не будет дела до их деятельности. Все будут заняты данным взрывом, а они смотаются под шумок.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_8">
+				<English>We have just received an accurate confirmation of the nuclear explosion, as well as the presence of US troops in the territory of South Zagoria.</English>
+				<Russian>Только что мы получили точное подтверждение ядерного взрыва, а так же наличие войск США на территории Южной Загории.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_9">
+				<English>USA? Okay, that's their problem. We received a data packet with the key 'Fenix-1'. I can not believe that they managed to do this.</English>
+				<Russian>США? Ладно, это уже их проблемы. Мы получили пакет данных с ключем 'Fenix-1'. Даже не верится, что им удалось это сделать.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_10">
+				<English>We must get them out of there.</English>
+				<Russian>Мы обязательно должны вытащить их оттуда.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_11">
+				<English>We are already working on finding their location.</English>
+				<Russian>Уже работаем над поиском их местоположения.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_12">
+				<English>By the way, what is Operation 'Restraint'?</English>
+				<Russian>Кстати, а что за Операция 'Сдерживание'?</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_unkn_ctsc_t8_13">
+				<English>It's a pretty long story, I'll tell you somehow in spare time...</English>
+				<Russian>Это довольно долгая история, расскажу как-нибудь в свободное время...</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_sb1_1">
+				<English>Old castle... I dont think I'll find anything interesting here.</English>
+				<Russian>Старинная крепость... Врятли конечно я смогу тут что-то найти, но ради интереса заглянуть можно</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_sb1_2">
+				<English>...The fortress is quite high. Looks like good tactical position.</English>
+				<Russian>Хотя... крепость довольно высокая. Хорошая тактическая позиция.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_pavel_aawtasks_done">
+				<English></English>
+				<Russian>Отлично, я думаю оно того стоило.</Russian>
+			</Key>
+			<Key ID="STR_opr_dialogs_fedor_hostage">
+				<English>Hey, it would be nice if you free me.</English>
+				<Russian>Эй, было бы неплохо если бы ты меня освободил.</Russian>
+			</Key>
+		</Container>
+		<Container name="Hints">
+			<Key ID="STR_opr_hint_myhintcreated">
+				<English>New entry in the diary &lt;br/&gt; (M &gt;&gt; Diary)</English>
+				<Russian>Новая запись в дневнике &lt;br/&gt; (M &gt;&gt; Заметки)</Russian>
+			</Key>
+			<Key ID="STR_opr_hint_foundhintcreated">
+				<English>New note found &lt;br/&gt; (M >> Found Notes)</English>
+				<Russian>Найдена новая запись &lt;br/&gt; (M >> Найденные Заметки)</Russian>
+			</Key>
+			<Key ID="STR_opr_hint_outofrangeloadgame">
+				<English>YOU ARE LEAVING TASK AREA. IF YOU CONTINUE MOVING FORWARD, GAME AUTOMATICLY LOAD LAST SAVE!!!</English>
+				<Russian>ВЫ ПОКИДАЕТЕ РАЙОН ВЫПОЛНЕНИЯ ЗАДАНИЯ. ЕСЛИ ВЫ ПРОДОЛЖИТЕ ДВИЖЕНИЕ ВПЕРЕД, ТО ИГРА АВТОМАТИЧЕСКИ ЗАГРУЗИТ ПОСЛЕДНЕЕ СОХРАНЕНИЕ!!!</Russian>
+			</Key>
+			<Key ID="STR_opr_hint_hostageresc">
+				<English>The hostages you founded will join your group after you free them.&lt;br/&gt;(THIS WILL NOT AFFECT STORYLINE)</English>
+				<Russian>Найденные вами заложники присоединятся к вашему отряду после освобождения.&lt;br/&gt;(ЭТО НИКАК НЕ ПОВЛИЯЕТ НА РАЗВИТИЕ СЮЖЕТА)</Russian>
+			</Key>
+			<Key ID="STR_opr_hint_leavedestructarea">
+				<English>YOU HAVE 25 SECONDS TO FIND A COVER.</English>
+				<Russian>У ВАС ЕСТЬ 25 СЕКУНД ЧТО БЫ НАЙТИ УКРЫТИЕ.</Russian>
+			</Key>
+		</Container>
+		<Container name="Tasks">
+			<Key ID="STR_opr_task_1n">
+				<English>Inspect the heli crash site</English>
+				<Russian>Осмотреть Место Крушения</Russian>
+			</Key>
+			<Key ID="STR_opr_task_1d">
+				<English>Get to the GPS beacon and inspect the heli crash.</English>
+				<Russian>Добраться до маячка вертолета и осмотреть место крушения.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_2n">
+				<English>Inspect Shakhovka</English>
+				<Russian>Осмотр Шаховки</Russian>
+			</Key>
+			<Key ID="STR_opr_task_2d">
+				<English>According to the information we have, in Shakhovka there is a small base of the chernorussian troops. It's possible that you will get some information.</English>
+				<Russian>По имеющимся у нас данным, в Шаховке находится небольшая база Чернорусских войск. Вполне возможно, что у вас получится раздобыть некоторые сведения.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_3n">
+				<English>Checkpoint in Guglovo</English>
+				<Russian>КПП в Гуглово</Russian>
+			</Key>
+			<Key ID="STR_opr_task_3d">
+				<English>The checkpoint in Guglovo is one of the main points of fixation of vehicles passing through it. Your task is to get to the checkpoint and get a log of passing vehicles.</English>
+				<Russian>КПП в Гуглово является одной из главных точек фиксации проезжающих через него транспортных средств. Ваша задача пробраться на КПП и заполучить журнал учета проезжающих транспортных средств.
+				</Russian>
+			</Key>
+			<Key ID="STR_opr_task_4n">
+				<English>Lost Group</English>
+				<Russian>Пропавший отряд</Russian>
+			</Key>
+			<Key ID="STR_opr_task_4d">
+				<English>As I understand it, a detachment passing through Guglovo was sent to the Vyshnoye to check the situation on the site (the connection with which was lost), after which they also disappeared ... I wonder what happened to them?</English>
+				<Russian>Как я понял, отряд, проезжавший через Гуглово, был направлен в поселок Вышное для проверки обстановки на объекте (связь с которым была потеряна), после чего они тоже исчезли... Интересно, что с ними случилось?
+				</Russian>
+			</Key>
+			<Key ID="STR_opr_task_5n">
+				<English>Sabotage in Polana</English>
+				<Russian>Саботаж в Поляне</Russian>
+			</Key>
+			<Key ID="STR_opr_task_5d">
+				<English>&lt;img image='Img\task5_taskimg.jpg' width='360' height='192' /&gt; &lt;br/&gt;&lt;br/&gt;We have recorded that the сhernorussian troops are transporting valuable cargo (up to armament) through the Polana. Your task is to get into the temporary warehouse in Polana and destroy it.</English>
+				<Russian>&lt;img image='Img\task5_taskimg.jpg' width='360' height='192' /&gt; &lt;br/&gt;&lt;br/&gt;Мы зафиксировали, что в через поляну провозят довольно ценные грузы (вплоть до вооружения) чернорусские войска. Ваша задача пробраться в временный склад в Поляне и уничтожить его.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_6n">
+				<English>Eliminate Target</English>
+				<Russian>Устранить Цель</Russian>
+			</Key>
+			<Key ID="STR_opr_task_6d">
+				<English>
+					&lt;img image='Img\photo_3.jpg' width='360' height='192' /&gt; &lt;br/&gt;&lt;br/&gt; Ivan Strogachev for some time collaborated with pmc 'Fenix' and supplied valuable intelligence from the whole South Zagoria. Unfortunately our contact with him was interrupted 3-4 months ago. Two weeks later, one of our squads working in the given territory took a photo, which clearly shows how Ivan S. Conducts a dialogue with an unknown person (unknown person had a badge with the inscription UNiT). &lt;br/&gt; Your task is to eliminate Ivan Strogachev (he knows quite a lot about the location of our fighters) and, if possible, find any securities.
+				</English>
+				<Russian>
+					&lt;img image='Img\photo_3.jpg' width='360' height='192' /&gt; &lt;br/&gt;&lt;br/&gt; Иван Строгачев некоторое время сотрудничал с чвк 'Fenix' и поставлял ценные разведданные со всей Южной Загории. К сожалению наш контакт с ним прервался 3-4 месяца назад. Через две недели один из наших отрядов, работающих на данной территории, сделал фотографию, на которой отчетливо видно, как Иван С. ведет диалог с неизвестной личностью (у данной неизвестной личности была нашивка с надписью UNiT). &lt;br/&gt; Ваша задача устранить Ивана Строгачева (он знает довольно много о расположении наших бойцов) и по возможности найти какие либо ценные бумаги.
+				</Russian>
+			</Key>
+			<Key ID="STR_opr_task_7n">
+				<English>AIRPORT</English>
+				<Russian>АЭРОПОРТ</Russian>
+			</Key>
+			<Key ID="STR_opr_task_7d">
+				<English>Head to NW Airfield for reconnaissance.</English>
+				<Russian>Направляйтесь на С-З Аэродром для разведки.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_8n">
+				<English>'SPARK'</English>
+				<Russian>'ИСКРА'</Russian>
+			</Key>
+			<Key ID="STR_opr_task_8d">
+				<English>Move to the object 'Spark', turn off the jammer and send the data packet received in Gorka.</English>
+				<Russian>Проберитесь на объект 'Искра', отключите глушилку и отправьте полученный в Горке пакет данных.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_8_1n">
+				<English>End Of The Radio Silence</English>
+				<Russian>Конец Радиомолчания</Russian>
+			</Key>
+			<Key ID="STR_opr_task_8_1d">
+				<English>Turn off the radio jamming device in 'Spark'.</English>
+				<Russian>Отключите заглушающее радиосигнал устройство в 'Искре'.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_8_2n">
+				<English>Send Data Package</English>
+				<Russian>Отправить Пакет Данных</Russian>
+			</Key>
+			<Key ID="STR_opr_task_8_2d">
+				<English>sneak into the main terminal of the 'Spark' object and use it to send a data packet obtained in Gorka.</English>
+				<Russian>Проберитесь к главному терминалу объекта 'Искра' и используйте его для отправки пакета данных из Горки.</Russian>
+			</Key>
+			<Key ID="STR_opr_task_aaw_n">
+				<English>Destroy AAW</English>
+				<Russian>Уничтожить ПВО</Russian>
+			</Key>
+		</Container>
+		<Container name="Credits">
+			<Key ID="str_opr_credits_author">
+				<English>Author: MAXIMILI</English>
+				<Russian>Автор: MAXIMILI</Russian>
+			</Key>
+			<Key ID="str_opr_credits_thx">
+				<English>Thanks for playing!!!</English>
+				<Russian>Спасибо за прохождение!!!</Russian>
+			</Key>
+			<Key ID="str_opr_credits_music">
+				<English>Music</English>
+				<Russian>Музыка</Russian>
+			</Key>
+			<Key ID="str_opr_credits_scripts">
+				<English>Scripts</English>
+				<Russian>Скрипты</Russian>
+			</Key>
+			<Key ID="str_opr_credits_cont">
+				<English>The continuation? Well, i'll think :)</English>
+				<Russian>Продолжение? Ну это как пойдет :)</Russian>
+			</Key>
+		</Container>
+		<Container name="debriefcfg">
+			<Key ID="STR_opr_debriefcfg_true_title">
+				<English>THE END</English>
+				<Russian>КОНЕЦ</Russian>
+			</Key>
+			<Key ID="STR_opr_debriefcfg_true_subtitle">
+				<English>OR THE BEGINNING?</English>
+				<Russian>ИЛИ НАЧАЛО?</Russian>
+			</Key>
+			<Key ID="STR_opr_debriefcfg_true_description">
+				<English>You have successfully adapted in the environment around you, completed the main task and brought the matter to the 'end'.</English>
+				<Russian>Вы успешно адаптировались в окружающей вас обстановке, выполнили основное задание и довели дело до 'конца'.</Russian>
+			</Key>
+			<Key ID="STR_opr_debriefcfg_escaped_title">
+				<English>ESCAPED</English>
+				<Russian>СБЕЖАЛ</Russian>
+			</Key>
+			<Key ID="STR_opr_debriefcfg_escaped_subtitle">
+				<English>Life is more expensive than an assignment</English>
+				<Russian>Жизнь дороже, чем задание</Russian>
+			</Key>
+			<Key ID="STR_opr_debriefcfg_escaped_description">
+				<English>You escaped from the mission area. Well, this is your personal decision... Life is really more expensive.</English>
+				<Russian>Вы сбежали из зоны выполнения задания. Что ж, это ваше личное решение... Жизнь то действительно дороже.</Russian>
+			</Key>
+		</Containe>
+	</Package>
+</Project>

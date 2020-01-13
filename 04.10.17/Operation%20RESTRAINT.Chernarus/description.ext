@@ -1,0 +1,11 @@
+//All credits and etc [\INFO\...]
+
+#include "res\SMcfg.hpp"
+#include "res\INScfg.hpp"
+#include "res\DEBRIEFcfg.hpp"
+
+overviewPicture = "Img\restraint.paa";
+loadscreen = "Img\restraint.paa";
+onLoadMission = "$STR_opr_menu_onloadmission";
+
+saving = 1;
