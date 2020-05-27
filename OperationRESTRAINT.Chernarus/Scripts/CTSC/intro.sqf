@@ -1,8 +1,5 @@
-// by ALIAS
 // Thanks for this script ALIAS :3 "from MAXIMILI"
-// nul = [] execVM "intro.sqf";
-
-// if (isDedicated) exitWith {};
+// 27.05.2020 - OH MY GOD, WHAT IS THIS? My eyes are bleeding so hard... I want to die :(
 
 playsound "intro_music";
 

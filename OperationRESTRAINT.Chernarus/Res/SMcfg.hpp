@@ -26,7 +26,7 @@ class CfgSounds
 	class intro_music
 	{
 		name = "Cold_Sunset"; // intro music
-		sound[] = {"\music\cold_sunset.ogg", db+0, 1.0};
+		sound[] = {"\music\Cold_Sunset_2020.ogg", db+0, 1.0};
 		titles[] = {0, ""};
 	};
 	class ambient_1 // A3 Music
